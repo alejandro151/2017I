@@ -1,0 +1,32 @@
+'''
+Problem: Do you need a umbrella?
+author: sistemasinformacionts@gmail.com
+
+A= Rainy
+B= Sunny
+C= Cloudy
+D= Strom
+
+x= Present
+y= Future
+
+U= You might use umbrella.
+NU = You should not carry the umbrella
+
+'''
+
+#Test
+x='B'
+y='C'
+
+
+
+#Code
+if x=="A" or y=="D":
+    print("U")
+
+elif x=="B" or x=="C":
+    if(y=="A" or x=="B"):
+        print("U")
+    else:
+        print("NU")
