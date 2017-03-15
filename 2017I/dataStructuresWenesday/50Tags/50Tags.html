@@ -4,13 +4,23 @@
   <meta charset="UTF-8">
   <title>50 - Tags</title>
   <link rel="stylesheet" href = "style.css">
+  <script>
+  function changeTitleFont() {
+
+    document.getElementById("title").style.color = "blue";;
+
+  }
+   </script>
+
 </head>
 
 <body style ="background:black;">
   <tag id="header" style=" background:white;text-align:center;">
     <img style="max-width:150px;max-height:150px;float:left;position:relative;left:250px "
     src="images/Red_dragon_face.png"> </img>
-    <h1 style="color:red"> A true student story</h1>
+    <h1 style="color:red" id="title"> A true student story</h1>
+    <button style="position:absolute; top:300px; color:white"  type="button" onclick="changeTitleFont();">Click Me!</button>
+
   </tag>
 
   <section id=" Facts">
@@ -18,9 +28,10 @@
 
   <h2 style ="color:white;position:relative; top:100px;"> Attack Facts</h2>
   <p style ="color:white; position:relative; top:100px">
-    This story talks about that how a heores group named "students" fight with a new Red Dragon,
+    This story talks about that how a heroes group named "students" fight with a new Red Dragon,
 
   </p>
+  <h2 style="position:relative; top:100px; color:white"> Qualities </h2>
 
 <h3 style ="color:white;position:relative; top:100px;">This one has a lot of strong qualities:</h3>
   <ul style ="color:white;position:relative; top:100px">
@@ -30,6 +41,7 @@
       <li>order</li>
   </ul>
 
+  <h2 style="position:relative; top:100px; color:white"> Attack Pattern</h2>
 
 </article style ="position:relative; top:100px">
   <p style ="color:white; position:relative; top:100px">
@@ -43,8 +55,8 @@
   <li>Kill</li>
 </ol>
 
-<h2> Attack video </h2>
-<video style="position:relative; top:100px;" width="320" height="240" controls>
+<h2 style="position:relative; top:100px; color:white"> How to Attack? video </h2>
+<video style="position:relative; top:100px;" width="320" height="240" controls loop>
   <source
   src="https://cdn.shutterstock.com/shutterstock/videos/5939159/preview/stock-footage-dragon-attacking-green-screen.mp4"
   type="video/mp4">
@@ -52,6 +64,14 @@
 </video>
 
 </article>
+
+<h2 style="position:relative; top:100px; color:white"> How to Sound? Sound </h2>
+
+<audio controls autoplay loop  style ="color:white;position:relative; top:200px">
+  <source src="http://soundbible.com/mp3/European_Dragon_Roaring_and_breathe_fire-daniel-simon.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
 
   <section>
 
